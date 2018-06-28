@@ -1,0 +1,35 @@
+Package: sweepspecify
+Title: Sweep & Specify Operations for the OUHSC CDW
+Description: Sweep & Specify Operations for the OUHSC CDW. These functions improve the efficiency of our CDW pipeline.
+Version: 0.0.1.9000
+Date: 2018-06-28
+Authors@R: c(
+    person("Will", "Beasley", email="wibeasley@hotmail.com", role=c("aut", "cre")),
+    person("Sreeharsha", "Mandem", email="msreeharsha58@gmail.com", role=c("aut")),
+    person("Michael", "Ripperger", email="michaelandr10@gmail.com", role=c("aut")))
+URL: https://github.com/OuhscBbmc/sweepyspecify, http://ouhsc.edu/bbmc/
+BugReports: https://github.com/OuhscBbmc/sweepspecify/issues
+License: GPL-3
+LazyData: TRUE
+Depends:
+    R(>= 3.4.4)
+Imports:
+    checkmate,
+    DBI,
+    devtools (>= 1.8.0),
+    digest,
+    dplyr,
+    glue,
+    lubridate,
+    magrittr,
+    odbc (>= 1.1.6),
+    purrr,
+    readr,
+    remotes,
+    rlang,
+    testit,
+    tibble
+Suggests:
+    testthat
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
