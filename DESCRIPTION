@@ -4,7 +4,8 @@ Description: Sweep & Specify Operations for the OUHSC CDW. These functions impro
 Version: 0.0.1.9000
 Date: 2018-06-28
 Authors@R: c(
-    person("Will", "Beasley", email="wibeasley@hotmail.com", role=c("aut", "cre")),
+    person("Will", "Beasley", email="wibeasley@hotmail.com", role=c("aut", "cre"), 
+    comment = c(ORCID = "0000-0002-5613-5006")),
     person("Sreeharsha", "Mandem", email="msreeharsha58@gmail.com", role=c("aut")),
     person("Michael", "Ripperger", email="michaelandr10@gmail.com", role=c("aut")))
 URL: https://github.com/OuhscBbmc/sweepyspecify, http://ouhsc.edu/bbmc/
