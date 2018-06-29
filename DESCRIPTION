@@ -9,7 +9,7 @@ Authors@R: c(
     person("Michael", "Ripperger", email="michaelandr10@gmail.com", role=c("aut")))
 URL: https://github.com/OuhscBbmc/sweepyspecify, http://ouhsc.edu/bbmc/
 BugReports: https://github.com/OuhscBbmc/sweepspecify/issues
-License: GPL-3
+License: GPL-3 + file LICENSE
 LazyData: TRUE
 Depends:
     R(>= 3.4.0)

@@ -4,7 +4,6 @@
 ^\.travis\.yml$
 ^appveyor\.yml$
 ^wercker\.yml$
-^LICENSE$
 ^shim_package\.sh$
 ^revdep$
 ^cran-comments\.md$
